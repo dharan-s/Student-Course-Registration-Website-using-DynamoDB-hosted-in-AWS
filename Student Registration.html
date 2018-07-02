@@ -45,12 +45,12 @@
 </div>
 <script>
  AWS.config.update({
-	accessKeyId: 'AKIAJZOV3RHQY3CO6Y4A',
-	secretAccessKey: 'OzmyFlXEk2ixgi/NcS6Cc1fj34+Tbwqx3245zeTl',
-	region: 'us-east-1'
+	accessKeyId: '<your accessKeyId>',
+	secretAccessKey: '<your secretAccessKey>',
+	region: '<your region>' //eg:'us-east-1'
  });
- var s3 = new AWS.S3({params: {Bucket: 'service-image-1003979'}});
- var Dynamo = new AWS.DynamoDB.DocumentClient({region: 'us-east-1'});
+ var s3 = new AWS.S3({params: {Bucket: '<your bucket name>'}});
+ var Dynamo = new AWS.DynamoDB.DocumentClient({region: '<your region>'});
     // Fetch the Student ID from the input
     function getStudentId() {
       return document.getElementById('sid').value;
@@ -134,7 +134,7 @@
       let li = document.createElement('li');
       let iframeHtml = document.createElement('iframe');
 	  
-      iframeHtml.src = 'https://s3.amazonaws.com/service-image-1003979/' + studentId + '/' +studentId;
+      iframeHtml.src = 'https://s3.amazonaws.com/<your bucket name>/' + studentId + '/' +studentId;
       //img.style.maxWidth = "200px";
 
       li.appendChild(iframeHtml);
