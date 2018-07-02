@@ -10,7 +10,7 @@ Dynamo Db – Stores the student-id and file-path to restore the file from S3 wh
 
 #-----------------Code--------------------#
 
-
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -160,3 +160,5 @@ Dynamo Db – Stores the student-id and file-path to restore the file from S3 wh
 </script>
 </body>
 </html >
+
+-->
