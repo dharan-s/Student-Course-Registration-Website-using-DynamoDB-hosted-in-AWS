@@ -1,6 +1,6 @@
 # Student-Course-Registration-Website-using-DynamoDB-hosted-in-AWS
 
-I developed and deployed student course registration website using  Lambda, DynamoDB and S3 in AWS.
+I developed and deployed a simple student course registration website using Lambda, DynamoDB and S3 comcepts in AWS.
 
 S3 – to upload the information of the student and to host website.
  
